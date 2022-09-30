@@ -11,8 +11,8 @@
 header{
     width: 100vw;
     height: 100vh;
-    /* background-image: url('./img/home_bg_1.png'); */
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa3FV1g4LAWsvBsSLJ2tpQm_yZv6UzBdTJrLQ4B3B_&s');
+    background-image: url('img/home_bg_1.png');
+    /* background-image: url(''); */
     background-position: bottom;
     background-size: cover;
 }
