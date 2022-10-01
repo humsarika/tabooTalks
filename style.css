@@ -16,6 +16,16 @@ header{
     background-position: bottom;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+}
+
+.home-content{
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+.home-content h1 h2{
+    font-size: 4vmin;
 }
