@@ -35,7 +35,14 @@ ul{
     /* We use this for remove bullitien point from list.*/
 }
 
+/* .active{
+    color: white;
+    font-weight: bold;
+} */
+
 .navbar{
+    color: white;
+    font-weight: bold;
     position: absolute;        /* It will remove upper white gap and nav content will display on the image  */
     top: 0;
     left: 0;
@@ -48,7 +55,12 @@ ul{
 .nav-links{
     display: flex;
     align-items: center;
+    text-align: center;
     
+}
+
+.nav-links li{
+    margin: 0 30px;
 }
 
 .ctn{
@@ -58,3 +70,44 @@ ul{
     color: black;
     text-align: center;
 }
+
+.menu-btn{
+position: absolute;
+top: 30px;
+right: 30px;
+width: 40px;
+cursor: pointer ;
+}
+
+/******************* Smartphone and Tab View *******************/
+@media only screen and (max-width:850px) {
+    .navbar{
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(143, 143, 143);
+        margin-top: -900px;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+    }
+
+    .nav-links li{
+        margin: 30px auto;
+    }
+
+}
+
+
