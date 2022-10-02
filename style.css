@@ -18,7 +18,7 @@ nav{
 
 nav ul{
     float: right;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 nav ul li{
@@ -159,7 +159,7 @@ body{
         height: 100vh;
         background: grey;
         top: 80px;
-        left: -100%;
+        right: -100%;
         text-align: center;
         transition: all .5s;
     }
@@ -181,6 +181,9 @@ body{
     }
      
     #check:checked ~ ul{
-        left: 0;
+        right: 0;
     }
+
+    
+
  } 
