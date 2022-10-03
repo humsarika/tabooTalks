@@ -90,15 +90,9 @@ body{
 
 .home-content{
     margin-bottom: 150px;
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: white;
     text-align: center;
-}
-
-
-.home-content h1 h2{
-    /* font-size: 4vmin; */
-    font-size: larger;
 }
 
 /**********************Home Button***********************/
