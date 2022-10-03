@@ -89,7 +89,7 @@ body{
 }
 
 .home-content{
-    margin-bottom: 150px;
+    margin-bottom: 350px;
     color: white;
     text-align: center;
 }
@@ -134,7 +134,7 @@ body{
 } */
 
 
-/********************* Responsiveness ************************/
+/********************* Responsiveness:- Section1 ************************/
  @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -184,6 +184,13 @@ body{
         right: 0;
     }
 
-    
-
  } 
+
+ /****************** Content-1 Section *********************/
+ .content-1{
+    
+    color: rgb(67, 73, 75);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+ }
