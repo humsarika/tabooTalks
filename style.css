@@ -89,12 +89,12 @@ body{
 }
 
 .home-content{
-<<<<<<< HEAD
+
     margin-bottom: 350px;
-=======
-    margin-bottom: 150px;
+
+
     font-size: 2.3rem;
->>>>>>> 382429d8b89075f82e76d6df83d299b9e2c43f4c
+
     color: white;
     text-align: center;
 }
@@ -140,16 +140,36 @@ body{
         padding-left: 50px;
     }
 
-    
+    .home-content{
+        margin-bottom: 200px;
+
+
+    font-size: 2.3rem;
+
+    color: white;
+    text-align: center;
+    }
+
     nav ul li a{
         font-size: 16px;
         
     }
  }
 
+
  @media (max-width: 858px){
     .checkbtn{
         display: block;
+    }
+
+    .home-content{
+        margin-bottom: 250px;
+
+
+    font-size: 2rem;
+
+    color: white;
+    text-align: center;
     }
     
     ul{
