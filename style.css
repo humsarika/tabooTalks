@@ -122,6 +122,9 @@ body{
     margin-bottom: 50px;
     font-weight: bolder;
  }
+ .imagehome{
+    text-align: center;
+ }
 
  #im1{
     border-radius: 20px;
