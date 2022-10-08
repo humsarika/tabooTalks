@@ -1,6 +1,6 @@
 /* Google Font*/ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/*******************Navigation Bar***************************/
+/* Navigation Bar*/
 nav{
     
     background: rgb(28, 28, 28);
@@ -18,7 +18,6 @@ nav{
 
 nav ul{
     float: right;
-    /* margin-right: 20px; */
 }
 
 nav ul li{
@@ -38,7 +37,6 @@ border-radius: 3px;
 .nav-sec.active,.nav-sec:hover{
     background: rgb(167, 163, 163);
     color: black;
-    /* font-weight: bold; */
     transition:.5s ;
 }
 
@@ -57,26 +55,17 @@ border-radius: 3px;
     display: none;
 }
 
-/*************************Logo*************************/
+/* Logo */
 .logo{
-    /* position: absolute;         */
-    /* It will remove upper white gap and nav content will display on the image  */
     top: 0;
     left: 0;
-    /* display: flex;       */
-    /* So it will shift content to right of our logo....*/
-    /* width: 100%; */
-    /* justify-content: space-between; */
-    /* padding: 20px; */
 }
 
-/*******************************Home Page*****************************/
+/*Home Page*/
 
 header{
-    /* width: 100vw;*/
     height: 100vh; 
     background-image: url('img/home_bg_1.png');
-    /* background-image: url(''); */
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -89,49 +78,56 @@ body{
 }
 
 .home-content{
-
-    margin-bottom: 350px;
-
-
-    font-size: 2.3rem;
-
-    color: white;
+    margin-bottom: 280px;
+    font-size: 3.7rem;
+    color: black;
     text-align: center;
+    font-weight: bold;
 }
 
-/**********************Home Button***********************/
-.home-button{
-    color: black;
+/*Home Button*/
+.get-started{
+    color: white;
     font-weight: bold;
+    background-color: black;
     font-size: large;
 }
-.home-button:link, .home-button:link:visited {
-    /* background-color: white; */
-    /* color: rgb(239, 238, 238); */
-    border: 2px solid rgb(233, 248, 233);
+.get-started:link, .get-started:link:visited {
+
+    border: 2px solid black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 25px;
   }
-  
-  /* .home-button:link:hover, .home-button:link:active {
-    background-color: white;
-    
-  } */
 
-.home-button.active,.home-button:hover{
-    background: rgb(0, 0, 0);
-    color: aliceblue;
-    transition:.5s ;
+.get-started.active,.get-started:hover{
+    /* background: rgb(0, 0, 0); */
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    transition:.3s ;
 }
 
-/* .checkbtn{
-    float: right;
-    line-height: 80px;
-} */
 
+/* Content-1 Section */
+
+.content-1{
+    color: rgb(67, 73, 75);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+ }
+
+ #im1{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+ }
 
 /********************* Responsiveness:- Section1 ************************/
  @media (max-width: 952px){
@@ -203,13 +199,10 @@ body{
         right: 0;
     }
 
+    .content-1{
+        font-size: 30px;
+    }
+
  } 
 
- /****************** Content-1 Section *********************/
- .content-1{
-    
-    color: rgb(67, 73, 75);
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 80px;
- }
+ 
