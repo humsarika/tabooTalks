@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    font-size: 70px;
 }
 
 /*
@@ -18,5 +19,20 @@ Man-
     height: 300px;
     margin: 36px;
     
+    
+ }
+
+ .man p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ img{
+    text-align: center;
+ }
+
+ @media (max-width: 858px){
+
     
  }
