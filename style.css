@@ -1,6 +1,6 @@
 /* Google Font*/ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -89,12 +89,8 @@ body{
 }
 
 .home-content{
-
     margin-bottom: 350px;
-
-
     font-size: 2.3rem;
-
     color: white;
     text-align: center;
 }
@@ -132,6 +128,24 @@ body{
     line-height: 80px;
 } */
 
+/****************** Content-1 Section *********************/
+
+.content-1{
+    color: rgb(67, 73, 75);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+ }
+
+
+ #im1{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+ }
 
 /********************* Responsiveness:- Section1 ************************/
  @media (max-width: 952px){
@@ -203,13 +217,10 @@ body{
         right: 0;
     }
 
+    .content-1{
+        font-size: 30px;
+    }
+
  } 
 
- /****************** Content-1 Section *********************/
- .content-1{
-    
-    color: rgb(67, 73, 75);
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 80px;
- }
+ 
