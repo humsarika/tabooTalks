@@ -22,15 +22,51 @@ Man-
     
  }
 
- .man p{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+.imageman{
+   text-align: center;
+}
+
+.man p{
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+img{
+   text-align: center;
+}
+
+/******Button ******/
+
+.mbutton ,.get-started{
+   text-align: center;
+}
+.get-started{
+   color: white;
+   font-weight: bold;
+   background-color: black;
+   font-size: large;
+   
+}
+.get-started:link, .get-started:link:visited {
+
+   border: 2px solid black;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 25px;
  }
 
- img{
-    text-align: center;
- }
+.get-started.active,.get-started:hover{
+   /* background: rgb(0, 0, 0); */
+   border: 2px solid black;
+   color: black;
+   background-color: transparent;
+   transition:.3s ;
+}
+
+ 
 
  @media (max-width: 858px){
 
