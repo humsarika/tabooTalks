@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+/*
+Women-
+1)Facts
+2)Quotes
+3)Celebrity story
+5)Personal experience 
+4)Our Community
+
+*/
+
+#im1{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    
+ }
+
+.women{
+   text-align: center;
+ }
+
+.women p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+
+
+@media (max-width: 858px){
+
+    
+ }
